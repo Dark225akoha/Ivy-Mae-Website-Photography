@@ -1,0 +1,158 @@
+body {
+  background-image: url("imagebruh/backgroundmomo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+
+.navbar a {
+  text-decoration: underline;
+  font-family: "Gill Sans Light", sans-serif;
+  font-weight: 300;
+  font-size: 29px;
+  letter-spacing: 3px;
+  color: #000;
+  flex: 1;
+  text-align: center;
+}
+
+h1 {
+    font-family: "Stix General", serif;
+    font-size: 80px;
+    text-align: center;      
+    margin-bottom: 5px;
+  }
+
+  
+h2 {
+    font-family: "Gill Sans Light", sans-serif;
+    text-align: center;
+    font-weight: 100;
+    font-size: 35px; 
+    letter-spacing: 11px;
+    margin-top: 2px;
+    margin-bottom: 90px;
+  }
+  
+
+  .gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+    align-items: center;
+    max-width: 100%;
+}
+
+  .gallery img {
+    width: 500px;
+    height: auto;
+    display: inline-block;
+    margin-right: 75px;
+    margin-left: 75px;
+    margin-top: 150px;
+  }
+
+
+  h3 {
+    font-family: "Stix General", serif;
+    text-decoration: underline;
+    font-size: 80px;
+    text-align: center;      
+    margin-top: 50px;
+  }
+  
+  .image {
+    width: 800px; 
+    height: auto; 
+    float: left; 
+  }
+
+  .centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .centered-image img {
+    max-width: 100%; 
+    max-height: 100%; 
+    margin: auto; 
+  }
+
+  .image-with-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-with-text img {
+    max-width: 50%; 
+    margin-right: 50px; 
+  }
+  
+  .text-content {
+    flex-grow: 1;
+  }
+
+  .Contact {
+  background-color: black;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.Contact h3 {
+  color: white;
+  font-family: "Stix General", serif;
+  font-size: 24px;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.black-box {
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.white-box {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.big-box {
+  width: 400px;
+  margin-right: 20px;
+}
+
+.small-box {
+  width: 190px;
+  margin-right: 20px;
+}
+
+.white-box:last-child {
+  margin-bottom: 0;
+  margin-right: 0;
+}
+  
+  
+  
